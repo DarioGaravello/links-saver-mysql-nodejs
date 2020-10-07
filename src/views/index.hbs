@@ -1,0 +1,18 @@
+<section class="container p-4">
+    <div class="row">
+        <div class="col-md-4 mx-auto">
+            <div class="card text-center">
+                <div class="card-body">
+                    {{#if user}}
+                        <h2>Check your links here</h2>
+                        <a href="/links" class="btn btn-primary">See your Links</a>
+                    {{else}}
+                        <h1>Welcome to Favorite Links</h1>
+                        <a href="/signin" class="btn btn-warning">Login to see yours favorites links</a>
+                    {{/if}}
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
